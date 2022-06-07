@@ -76,7 +76,7 @@ $ yarn start
 ## 👨🏻‍💻 Utilizando
 
 ### O uso do projeto, consiste em:
- * Clicar no botao Pesquisar Pokemons e ser redirecionado para pagina de pesquisa.
+ * Clicar no botao Veja os Pokemons ou acessar as páginas e ser redirecionado para onde desejar.
 
  * Pesquisar por nome mais de 250 pokemons.
 
