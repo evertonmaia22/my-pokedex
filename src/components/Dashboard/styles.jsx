@@ -10,27 +10,34 @@ export const Container = styled.div`
     background-color: ${theme.colors.background};
     color: ${theme.colors.auttarGray};
 
+@media screen and (max-width: ${theme.breakpoints.mobile}) {
+        max-width: 100%;
+        
+}
+
 
     img{
 
         margin: -150px 0 -500px 445px;
-        width: 888px;
+        width: 750px;
         height: 678px;
-        top: 40px;
         
-    @media screen and (max-width: ${theme.breakpoints.notebook}) {
-        max-width: 580px;
+        
+@media screen and (max-width: ${theme.breakpoints.notebook}) {
+        max-width: 500px;
+        
 }
     @media screen and (max-width: ${theme.breakpoints.ipadPro}) {
         max-width: 385px;
+        
 }
     @media screen and (max-width: ${theme.breakpoints.ipad}) {
-        max-width: 200px;
+        max-width: 300px;
         margin: -150px 0 0 230px;
 }
     @media screen and (max-width: ${theme.breakpoints.mobile}) {
         max-width: 170px;
-        margin: -135px 0 0 150px;
+        margin: -160px 0 -520px 150px;
 }
         
         

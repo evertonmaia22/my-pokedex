@@ -12,7 +12,7 @@ export function Dashboard(){
             
             <h1>Qual Pokémon você <span className='selectedBg'>escolheria</span>?</h1>
             <p>Você pode saber o tipo do Pokémon, seus pontos fortes,fracos e habilidades.</p>
-            <button onClick={() => navigate("/Pokemons")}>Veja os pokemons</button>
+            <button onClick={() => navigate("/Pokemons")}>Veja os pokemons</button>           
             <img src= { bannerCompleteImg } alt= 'banner-pokemon' />
                 
         </div>

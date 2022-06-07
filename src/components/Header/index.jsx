@@ -6,7 +6,7 @@ import { Container } from './styles'
 export function Header(){
 
     const navigate = useNavigate();
-
+    
     return(
         <Container>
             
