@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Logo" src="https://www.zappts.com/images/logo-zappts-gradient.png" width="200px">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Teste para desenvolvedor front-end na Zappts.
+</h3>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <a href="#about">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#started">Preparando ambiente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#use">Utilizando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#use">Testes</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div id="about"></div>
 
-### `yarn test`
+## 💇🏻‍♂️ Sobre o desafio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O desafio consiste em reproduzir um protótipo de uma página de Pokemons, aonde se pode pesquisar por nome mais de 250 pokemons.
 
-### `yarn build`
+<div id="technologies"></div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tecnologias que utilizei para desenvolver o teste:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Styled-Components](https://styled-components.com/)
+- [Eslint](https://eslint.org/)
+- [React-Router-Dom](https://reactrouter.com/)
+- [React-Testing-Library](https://testing-library.com/docs/react-testing-library/intro/)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div id="started"></div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Preparando o ambiente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Requisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/) ou [npm](https://www.npmjs.com/)
 
-## Learn More
+**Clone o projeto e acesse a pasta**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+$ git clone https://github.com/evertonmaia22/my-pokedex && cd my-pokedex
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**Execute os comandos abaixo para instalar as dependências**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Instala as dependências
+$ yarn
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Quando for concluído, execute:
+$ yarn start
 
-### Making a Progressive Web App
+# Pronto! Agora você já pode acessar o projeto no endereço (http://localhost.com:3000) do seu browser.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<div id="use"></div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👨🏻‍💻 Utilizando
 
-### Deployment
+### O uso do projeto, consiste em:
+ * Clicar no botao Pesquisar Pokemons e ser redirecionado para pagina de pesquisa.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ * Pesquisar por nome mais de 250 pokemons.
 
-### `yarn build` fails to minify
+ * A tela de contato consiste em um botao que redireciona para entrar contato com o desenvolvedor.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div id="tests"></div>
+
+## 👨🏻‍🔧 Testes
+Foram implementados testes e o mesmo pode ser realizado com o comando abaixo:
+
+```bash
+yarn test 
+```
+
+
+
+##
+Made by Everton Maia 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/everton-maia-566689235/)
