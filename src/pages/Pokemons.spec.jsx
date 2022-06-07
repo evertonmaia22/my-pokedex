@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import { Header } from ".";
+import { Pokemons } from "./Pokemons";
 
 
 jest.mock('react-router-dom', () =>{
@@ -12,11 +12,9 @@ jest.mock('react-router-dom', () =>{
     }
 })
 
-test('header renders correctly', () => {
+test('Pokemons renders correctly', () => {
     const { debug } = render(
-        <Header />
+        <Pokemons />
     )
     debug()
 })
-
-

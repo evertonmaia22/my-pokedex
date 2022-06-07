@@ -3,7 +3,7 @@ import { SearchBar } from "../SearchBar";
 import { Container } from "./styles";
 
 
- const ContentPokemons = () => {
+export function ContentPokemons(){
 
      return(
          <Container>                   
@@ -15,6 +15,4 @@ import { Container } from "./styles";
     )
 }
 
-
-export default ContentPokemons;
    
