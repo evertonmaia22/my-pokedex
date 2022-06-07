@@ -14,6 +14,7 @@
   <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#started">Preparando ambiente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#use">Utilizando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#images">Imagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#use">Testes</a>&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -34,6 +35,7 @@ Tecnologias que utilizei para desenvolver o teste:
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Styled-Components](https://styled-components.com/)
 - [Eslint](https://eslint.org/)
+- [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 - [React-Router-Dom](https://reactrouter.com/)
 - [React-Testing-Library](https://testing-library.com/docs/react-testing-library/intro/)
 
@@ -80,6 +82,22 @@ $ yarn start
 
  * A tela de contato consiste em um botao que redireciona para entrar contato com o desenvolvedor.
 
+
+<div id="images"></div>
+
+## 👨🏻‍💻 Imagens da aplicação em produção:
+
+### Home
+![Home](https://user-images.githubusercontent.com/101665823/172461308-c401fb93-08d6-4836-a05e-1a44e99d9742.png)
+
+### Pokemons
+Pesquise os pokemons pelo nome e encontrará o seu favorito, Ex: (mew, mewtwo, charizard, pikachu, blastoise, bulbasaur e muito mais!).
+
+![Pokemons](https://user-images.githubusercontent.com/101665823/172461532-f2ea20fc-3d4d-43e3-8b0c-0ffb45157bd9.png)
+
+### Contato
+![Contato](https://user-images.githubusercontent.com/101665823/172462153-f0e6e402-4839-4183-89b9-636475c71519.png)
+
 <div id="tests"></div>
 
 ## 👨🏻‍🔧 Testes
@@ -88,7 +106,10 @@ Foram implementados testes e o mesmo pode ser realizado com o comando abaixo:
 ```bash
 yarn test 
 ```
+## 👨🏻‍💻 Futuros ajustes:
 
+- Listar todos os pokemons com paginação.
+- Exibir mais informações como: Status, Tipo, Habilidades e Evoluções.
 
 
 ##
