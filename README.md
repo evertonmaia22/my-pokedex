@@ -22,8 +22,7 @@
 
 ## 💇🏻‍♂️ Sobre o desafio
 
-O desafio consiste em reproduzir um protótipo de uma página de Pokemons, aonde se pode pesquisar por nome mais de 250 pokemons.
-
+O desafio consiste em reproduzir um protótipo de uma página de Pokemons.
 <div id="technologies"></div>
 
 ## 🚀 Tecnologias
@@ -76,9 +75,10 @@ $ yarn start
 ## 👨🏻‍💻 Utilizando
 
 ### O uso do projeto, consiste em:
- * Clicar no botao Veja os Pokemons ou acessar as páginas e ser redirecionado para onde desejar.
 
- * Pesquisar por nome mais de 250 pokemons.
+ * Pagina home com botao para acessar as páginas e header para navegação.
+
+ * Pesquisar por nome mais de 250 pokemons, lista de todos os pokemons e botao para carregar mais 18 pokemons por vez.
 
  * A tela de contato consiste em um botao que redireciona para entrar contato com o desenvolvedor.
 
@@ -92,8 +92,12 @@ $ yarn start
 
 ### Pokemons
 Pesquise os pokemons pelo nome e encontrará o seu favorito, Ex: (mew, mewtwo, charizard, pikachu, blastoise, bulbasaur e muito mais!).
+![Pokemons](https://user-images.githubusercontent.com/101665823/173258340-fd514a8a-a18b-40a5-b708-e632a37ba78c.png)     ![ListaPokemons](https://user-images.githubusercontent.com/101665823/173258445-6d5a86d6-443d-43c6-b2ed-84bfe4f7aedb.png)
 
-![Pokemons](https://user-images.githubusercontent.com/101665823/172461532-f2ea20fc-3d4d-43e3-8b0c-0ffb45157bd9.png)
+
+
+
+
 
 ### Contato
 ![Contato](https://user-images.githubusercontent.com/101665823/172462153-f0e6e402-4839-4183-89b9-636475c71519.png)
@@ -106,10 +110,6 @@ Foram implementados testes e o mesmo pode ser realizado com o comando abaixo:
 ```bash
 yarn test 
 ```
-## 👨🏻‍💻 Futuros ajustes:
-
-- Listar todos os pokemons com paginação.
-- Exibir mais informações como: Status, Tipo, Habilidades e Evoluções.
 
 
 ##
