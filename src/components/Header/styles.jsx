@@ -27,10 +27,11 @@ img{
 }
     @media screen and (max-width: ${theme.breakpoints.ipad}) {
         max-width: 90px;
+        margin: 0 10px 0 -50px;
 }
     @media screen and (max-width: ${theme.breakpoints.mobile}) {
         max-width: 75px;
-        margin: 35px 0 0 45px;      
+        margin: 35px 0 0 75px;      
 }
 
 }
@@ -61,15 +62,15 @@ a, nav{
 }
 @media screen and (max-width: ${theme.breakpoints.notebook}) {
         font-size: 20px ;
-        margin: 10px;      
+        margin: 15px;      
 }
 @media screen and (max-width: ${theme.breakpoints.ipadPro}) {
         font-size: 15px;
-        margin: 7px;
+        margin: 15px;
 }
 @media screen and (max-width: ${theme.breakpoints.ipad}) {
         font-size: 14px;
-        margin: 4px;
+        margin: 15px 5px;
 }
 
 }

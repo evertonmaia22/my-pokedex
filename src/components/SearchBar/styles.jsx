@@ -26,8 +26,8 @@ img{
 
 }
 @media screen and (max-width: ${theme.breakpoints.mobile}) {
-        width: 120px;       
-        margin: 0 0 0 -20px ;                      
+        width: 100px;       
+                           
 }
 
 }
@@ -47,7 +47,8 @@ h1{
         
 }
 @media screen and (max-width: ${theme.breakpoints.mobile}) {
-        font-size: 20px;                     
+        font-size: 15px;       
+                    
 }
 };
 
@@ -56,7 +57,7 @@ p{
     margin: auto 50px;
     font-family: ${theme.fontStyle.primary};
     font-size: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 
 @media screen and (max-width: ${theme.breakpoints.notebook}) {
         font-size: 25px;
@@ -69,7 +70,9 @@ p{
         
 }
 @media screen and (max-width: ${theme.breakpoints.mobile}) {
-        font-size: 15px;                     
+        font-size: 11px;   
+        margin: 0 10px 0 50px; 
+
 }
    
 };

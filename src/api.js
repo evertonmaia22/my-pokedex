@@ -7,3 +7,5 @@ export const searchPokemon = async (pokemon) => {
         console.log("error: ", error)
     }
 }
+
+

@@ -44,10 +44,10 @@ export const Container = styled.div`
         left: 850px;
 }
 @media screen and (max-width: ${theme.breakpoints.ipadPro}) {
-        left: 550px;
+        left: 780px;
 }
 @media screen and (max-width: ${theme.breakpoints.ipad}) {
-        left: 400px;
+        left: 530px;
         
 }
 @media screen and (max-width: ${theme.breakpoints.mobile}) {
@@ -73,10 +73,10 @@ export const Container = styled.div`
         width: 800px;
 }
 @media screen and (max-width: ${theme.breakpoints.ipadPro}) {
-        width: 500px;
+        width: 750px;
 }
 @media screen and (max-width: ${theme.breakpoints.ipad}) {
-        width: 350px;
+        width: 480px;
         
 }
 @media screen and (max-width: ${theme.breakpoints.mobile}) {

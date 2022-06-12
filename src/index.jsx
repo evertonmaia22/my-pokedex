@@ -11,7 +11,7 @@ root.render(
     <>
     <Router>
     <Routes>
-      <Route path='/' element={<App />} />
+      <Route path='/' element={<App/>} />
       <Route path='/Home' element={<Home />} />
       <Route path='/Pokemons' element={<Pokemons />} />
       <Route path='/Contact' element={<Contact />} />
