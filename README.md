@@ -91,7 +91,7 @@ $ yarn start
 ![Home](https://user-images.githubusercontent.com/101665823/172461308-c401fb93-08d6-4836-a05e-1a44e99d9742.png)
 
 ### Pokemons
-Pesquise os pokemons pelo nome e encontrará o seu favorito, Ex: (mew, mewtwo, charizard, pikachu, blastoise, bulbasaur e muito mais!).
+Pesquise os pokemons pelo nome e encontrará o seu favorito!
 ![Pokemons](https://user-images.githubusercontent.com/101665823/173258340-fd514a8a-a18b-40a5-b708-e632a37ba78c.png) ![ListaPokemons](https://user-images.githubusercontent.com/101665823/173258445-6d5a86d6-443d-43c6-b2ed-84bfe4f7aedb.png)
 
 
